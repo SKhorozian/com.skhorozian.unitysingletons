@@ -1,6 +1,6 @@
 # com.skhorozian.unitysingletons
  
-From https://github.com/UnityCommunity/UnitySingleton/blob/master/Assets/Scripts/Singleton.cs
+From https://github.com/UnityCommunity/UnitySingleton
 
 Credits to https://github.com/UnityCommunity
 
