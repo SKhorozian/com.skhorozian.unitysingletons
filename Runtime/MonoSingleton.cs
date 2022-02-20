@@ -49,7 +49,8 @@ public abstract class MonoSingleton<T> : MonoBehaviour where T : Component
         if ( _instance == null )
         {
             _instance = this as T;
-            DontDestroyOnLoad ( gameObject );
+            if (transform.parent == null)
+                DontDestroyOnLoad ( gameObject );
         }
         else
         {
